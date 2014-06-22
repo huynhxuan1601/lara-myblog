@@ -1,0 +1,14 @@
+[2014-06-21 16:38:06] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in D:\xampp\htdocs\GITHUB\lara-myblog\3.source-code\bootstrap\compiled.php:5440
+Stack trace:
+#0 D:\xampp\htdocs\GITHUB\lara-myblog\3.source-code\bootstrap\compiled.php(4789): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 D:\xampp\htdocs\GITHUB\lara-myblog\3.source-code\bootstrap\compiled.php(4777): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 D:\xampp\htdocs\GITHUB\lara-myblog\3.source-code\bootstrap\compiled.php(4769): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 D:\xampp\htdocs\GITHUB\lara-myblog\3.source-code\bootstrap\compiled.php(706): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 D:\xampp\htdocs\GITHUB\lara-myblog\3.source-code\bootstrap\compiled.php(687): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 D:\xampp\htdocs\GITHUB\lara-myblog\3.source-code\bootstrap\compiled.php(7418): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 D:\xampp\htdocs\GITHUB\lara-myblog\3.source-code\bootstrap\compiled.php(8025): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 D:\xampp\htdocs\GITHUB\lara-myblog\3.source-code\bootstrap\compiled.php(7972): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 D:\xampp\htdocs\GITHUB\lara-myblog\3.source-code\bootstrap\compiled.php(10590): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 D:\xampp\htdocs\GITHUB\lara-myblog\3.source-code\bootstrap\compiled.php(648): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 D:\xampp\htdocs\GITHUB\lara-myblog\3.source-code\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
